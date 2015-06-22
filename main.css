@@ -1,0 +1,49 @@
+@font-face {
+    font-family:galderglynn;
+    src: url(fonts/galderglynn.eot); /* EOT file for IE */
+}
+
+@font-face {
+    font-family:galderglynn;
+    src: url(fonts/galderglynn.ttf); /* TTF file for CSS3 browsers */
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('images/chalk2.jpg');
+    background-size: 100% 500px;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+}
+
+.mastheadtitle {
+    font-family:galderglynn;
+    text-align: center;
+    color: #F3FAEB;
+    font-size: 4em;
+    font-weight: 900;
+    margin-bottom: 0.1em;
+}
+
+.mastheadsubtitle {
+    text-align: center;
+    color: #EAECA5;
+    font-family:galderglynn;
+    font-size: 1em;
+    margin-top: -0.9em;
+}
+
+.introduction,
+.importance,
+.history,
+.smalldetails {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
