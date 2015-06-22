@@ -17,7 +17,6 @@ html, body {
     padding: 6em 0;
     background-image: url('images/chalk2.jpg');
     background-size: 100% 500px;
-    /*background-size: cover;*/
     background-repeat: no-repeat;
 }
 
@@ -41,9 +40,29 @@ html, body {
 .introduction,
 .importance,
 .history,
-.smalldetails {
+.smalldetails,
+.footer {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+}
+
+.footer {
+    max-width: 100%;
+    height: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #4C4C4C;
+}
+
+
+.footer > p {
+    color: white;
+}
+
+.social > li {
+    text-align: center;
+    display: inline-block;
 }
