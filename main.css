@@ -36,6 +36,8 @@ a:hover {color: #E19F55;}
     font-size: 4em;
     font-weight: 900;
     margin-bottom: 0.1em;
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 .mastheadsubtitle {
@@ -44,6 +46,8 @@ a:hover {color: #E19F55;}
     font-family:galderglynn;
     font-size: 1em;
     margin-top: -0.9em;
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 /*BODY STYLING*/
@@ -92,6 +96,13 @@ a:hover {color: #E19F55;}
     margin-right: auto;
     text-align: center;
     background-color: #4C4C4C;
+    border: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
 }
 
 
