@@ -36,8 +36,6 @@ a:hover {color: #E19F55;}
     font-size: 4em;
     font-weight: 900;
     margin-bottom: 0.1em;
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
 }
 
 .mastheadsubtitle {
@@ -46,8 +44,6 @@ a:hover {color: #E19F55;}
     font-family:galderglynn;
     font-size: 1em;
     margin-top: -0.9em;
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
 }
 
 /*BODY STYLING*/
@@ -62,19 +58,10 @@ a:hover {color: #E19F55;}
     margin-top: 2em;
 }
 
-.introduction > h1 {
-    font-family:galderglynn;
-}
 
-.importance > h1 {
-    font-family:galderglynn;
-}
-
-
-.history > h1 {
-    font-family:galderglynn;
-}
-
+.introduction > h1,
+.importance > h1,
+.history > h1,
 .smalldetails > h1 {
     font-family:galderglynn;
 }
