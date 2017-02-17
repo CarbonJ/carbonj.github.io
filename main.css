@@ -50,6 +50,7 @@ a:hover {color: #E19F55;}
 .introduction,
 .importance,
 .history,
+.work,
 .smalldetails,
 .footer {
     max-width: 38em;
@@ -62,6 +63,7 @@ a:hover {color: #E19F55;}
 .introduction > h1,
 .importance > h1,
 .history > h1,
+.work > h1,
 .smalldetails > h1 {
     font-family:galderglynn;
 }
@@ -71,8 +73,6 @@ a:hover {color: #E19F55;}
     font-size: .8em;
     font-weight: bold;
     line-height: .05;
-    color: #F3F3D2;
-    text-shadow: 0 0 2px #000000;
 }
 
 /*FOOTER STYLING*/
